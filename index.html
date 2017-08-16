@@ -1,83 +1,141 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+	<head>
+		<title>Greg Gloor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+	</head>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<div id="header"></div>
 
-    <title>ggloor.github.io by ggloor</title>
-  </head>
+		<!-- Main -->
+		<div id="main">
+			<section id="content" class="main">
+			<div class="spotlight">
+				<header class = "major">
+				<h2>Greg Gloor, PhD</h2>
+				<h5>Professor, Department of Biochemistry at The University of Western Ontario</h5>
+				</header>
+				<br><br>
+				<div class= "content">
+					<ul>
+						<a href="mailto:ggloor@uwo.ca" class="button">Contact</a>
+						<br><br>
+						<a href="https://github.com/ggloor/cv/blob/master/CV_Gloor.pdf" class="button">My CV</a>
+						<br><br>
+						<a href="http://gloorlab.github.io" class="button">My Lab Page</a>
+					</ul>
+				</div>
+				<span class="image"><img src="images/gg.jpg" alt="" /></span>
+			</div>
+			<hr>
+			<div class="content">
+				<p>I have a broad experience in both wet-lab and computational biology. My lab investigates the functional characterization of complex systems using compositional data analysis methods.
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>greg gloor on github</h1>
-        <h2>home page and cv</h2>
-        <a href="https://github.com/ggloor" class="button"><small>Follow me on</small> GitHub</a>
-      </div>
-    </header>
+				This page contains a few important links, and some descriptions of current projects.
+				<br><hr><br>
+				<section id="selections" class="main special">
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2>
-<a id="greg-gloor-phd" class="anchor" href="#greg-gloor-phd" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Greg Gloor, PhD</h2>
+					<p>High throughput sequencing data is compositional by default, and should be analyzed as such. The below repositories and selections contain presentations and worked examples.</p><br>
+					<ul class="features">
+						<li>
+						<span class="image"><img src = "images/pie.png" alt = "" /></span>
+						<h3><a href="https://github.com/ggloor/compositions">Using CoDa analysis on high throughput sequencing</a></h3>
+						</li>
+						<li>
+						<span class="image"><img src = "images/list.png" alt = "" /></span>
+						<h3><a href="https://github.com/ggloor/compositions/blob/master/background_reading/Reading_List.md">A list of useful readings</a></h3>
+						</li>
+						<li>
+						<span class="image"><img src = "images/pres.png" alt = "" /></span>
+						<h3><a href="https://github.com/ggloor/compositions/tree/master/presentations">A recent set of presentations</a></h3>
+						</li>
+						<li>
+						<span class="image"><img src = "images/maze.png" alt = "" /></span>
+						<h3><a href="https://github.com/ggloor/CoDa_microbiome_tutorial/wiki">A tutorial on CoDa analysis of the microbiome</a></h3>
+						</li>
+						</ul>
+				</div>
+				<hr>
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>ALDEx2</h2>
+						</header>
+						<p>
+						We developed and maintain the ALDEx2 package which uses the principles of Compositional Data analysis coupled with Bayesian inference to determine differential abundance between groups for transcriptome and microbiome datasets: <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067019"> Fernandes et al, 2013</a>, <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4030730/">Fernandes et al, 2014</a>.</p>
+						<ul class="actions">
+						<li><a href="https://bioconductor.org/packages/release/bioc/html/ALDEx2.html" class="button">ALDEx2 on Bioconductor</a></li>
+					</div>
+					<span class="image"><img src="images/aldexplt.png" alt="" /></span>
+				</div>
+				<br><hr><br>
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>CoDaSeq</h2>
+						</header>
+						<p>
+						CoDaSeq is a suite of R functions for compositional analysis of high throughput sequencing.
+						</p>
+						<ul class="actions">
+						<li><a href="https://github.com/ggloor/CoDaSeq"class="button">CoDaSeq on Github</a></li>
+					</div>
+					<span class="image"><img src="images/network.png" alt="" /></span>
+				</div>
+				<br><hr><br>
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>In-line barcodes and workflow for 16S rRNA gene sequencing</h2>
+						</header>
+						<p>
+						 We developed an inline combinatorial barcoding system for the Illumina HiSeq and MiSeq platforms. The below repository contains protocols and software. (<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015406">Gloor et al, 2010</a>)
+						 <ul class="actions">
+						 <li><a href="https://github.com/ggloor/miseq_bin/releases" class="button">Newest Release on Github</a></li>
+					</div>
+					<span class="image"><img src="images/barcoding.png" alt="" /></span>
+				</div>
+			</section>
+				</div>
 
+				</p>
+			</div>
+		</div>
 
-<p>This page contains a few important links, and some descriptions of current projects. First the preliminaries:</p>
+		</div>
 
-<p><a href="https://scholar.google.ca/citations?user=909NxQEAAAAJ&hl=en&oi=ao">Google Scholar Profile</a></p>
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; 2017 | Design: <a href="https://html5up.net">HTML5 UP</a> | Icons designed by Freepik from Flaticon</p>
+		</footer>
 
-<p><a href="https://github.com/ggloor/cv/blob/master/CV_Gloor.pdf">CV</a></p>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-<p><a href="http://www.academicbiography.uwo.ca/profile.php?&n=ggloor">Home Page</a></p>
-
-I have a broad experience in both wet-lab and computational biology.
-
-<h3>Scripts, software, stuff:</h3>
-
-<h4>Github repositories:</h4>
-
-
-High throughput sequencing data is compositional by default, and should be analyzed as such. This site contains presentations and worked examples.
-<p><a href="https://github.com/ggloor/compositions">Information on using compositional data analysis on high throughput sequencing.</a> </p>
-<ul>
-	<li><a href="https://github.com/ggloor/compositions/blob/master/background_reading/Reading_List.md">A list of useful readings</a></li>
-	<li><a href="https://github.com/ggloor/compositions/tree/master/presentations">A recent set of presentations</a></li>
-	<li><a href="https://github.com/ggloor/CoDa_microbiome_tutorial/wiki">A tutorial on CoDa analysis of the microbiome</a></li>
-</ul>
-
-
-<p><a href="https://github.com/ggloor/CoDaSeq">CoDaSeq: R functions for compositional analysis of high throughput sequencing</a></p>
-We developed combinatorial barcodes for sequencing on the Illumina platforms. This site contains protocols and software.
-<p><a href="https://github.com/ggloor/miseq_bin">Illumina 16S rRNA gene sequencing software</a></p>
-
-<h4>Bioconductor repositories:</h4>
-
-<p><a href="https://bioconductor.org/packages/release/bioc/html/ALDEx2.html">ALDEx2</a></p>
-        </section>
-
-        <aside id="sidebar">
-
-		<H3>Links to other people's sites</H3>
-		<p><a href="http://mmacklai.github.io">Jean Macklaim</a></p>
-		<p><a href="https://github.com/ruthgrace">Ruth Grace Wong</a></p>
-		<p><a href="https://github.com/JRWu">Jia Rong Wu</a></p>
-		<h3>Organizations, etc</h3>
-		<p><a href="http://www.compositionaldata.com">CoDa Web</a></p>
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
-
-
-  </body>
+	</body>
 </html>
